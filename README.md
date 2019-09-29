@@ -42,6 +42,11 @@ Podemos vincular nuestro proyecto con un repositorio Git LFS en GitHub. La exten
 Antes de hacer el push de nuestro proyecto es necesario hacer el pull del repositorio de Github Puede surgir un conflicto de discrepancias entre las historias de ambos repositorios. Esto lo resolvemos ejecutando en la consola bash el comando:  
 `git pull origin master --allow-unrelated-histories`  
 A partir de ahí, podemos operar desde Unity en la pestaña GitHub para mantener actualizado el repositorio remoto.  
+  
+![Opciones GitHub en Unity](imagenes/github_unity.png) "Opciones en el menú Windows que dan acceso a GitHub"  
+
+  
+  ![Opciones GitHub en Unity](imagenes/github_unity_2.png) "Gestión del repositorio desde Unity"  
 
 ## Collab de Unity
 
