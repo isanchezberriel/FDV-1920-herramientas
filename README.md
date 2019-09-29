@@ -39,12 +39,10 @@ Esto afecta a todo el histórico, por lo que hay que tener especial cuidado y to
 - Windows --> GitHub podemos configurar un repositorio Git LFS sincronizado con un repositorio remoto en GitHub.
 - Windows --> GitHub comand line console permite lanzar una consola bash de git
 Podemos vincular nuestro proyecto con un repositorio Git LFS en GitHub. La extensión se encarga de configurar el archivo `.gitignore` y `.gitattribute`. 
-Antes de hacer el push de nuestro proyecto es necesario hacer el pull del repositorio de Github. Puede surgir un conflicto de discrepancias entre las historias de ambos repositorios. Esto lo resolvemos ejecutando en la consola bash el comando:  
+Antes de hacer el push de nuestro proyecto es necesario hacer el pull del repositorio de Github Puede surgir un conflicto de discrepancias entre las historias de ambos repositorios. Esto lo resolvemos ejecutando en la consola bash el comando:  
+`git pull origin master --allow-unrelated-histories`  
+A partir de ahí, podemos operar desde Unity en la pestaña GitHub para mantener actualizado el repositorio remoto.  
 
-`git pull origin master --allow-unrelated-histories` 
-
-A partir de ahí, podemos operar desde Unity en la pestaña GitHub para mantener actualizado el repositorio remoto.
-`
 ## Collab de Unity
 
 
