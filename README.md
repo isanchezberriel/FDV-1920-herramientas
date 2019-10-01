@@ -11,7 +11,7 @@ Si los colaboradores del repositorio no tienen Git LFS instalado, no tendrán ac
 - El espacio de trabajo local está organizado en: Copia de trabajo, Caché LFS y Repositorio local. 
 - El repositorio remoto se organiza en: Repositorio y repositorio de archivos LFS.
 ## Instalación de Git LFS
-Es necesaria la descarga, y posteriormente ejecutar en Git: `git lfs instal`
+Es necesaria la descarga, y posteriormente ejecutar en Git: `git lfs install`
 Este paso sólo es necesario realizarlo una vez
 ### Instalación en Ubuntu
     curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash  
